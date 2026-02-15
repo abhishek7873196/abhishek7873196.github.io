@@ -233,3 +233,136 @@
     padding-left: 25px;
     padding-right: 10px;
 }
+@media (max-width: 1024px) {
+  .navBar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    padding: 0 1rem;
+  }
+  .searchBox {
+    width: 100% !important;
+    margin: 0.5rem 0;
+  }
+  .input {
+    width: 100% !important;
+  }
+  .itemSection {
+    flex-wrap: wrap;
+    height: auto !important;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .item {
+    flex: 1 1 45%;
+    max-width: 45%;
+    height: auto !important;
+  }
+  .heroSection {
+    height: auto !important;
+    min-height: 200px;
+    max-width: 100% !important;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .loginBox, .becomeSellerBox, .moreBox {
+    display: none;
+  }
+  .cartBox {
+    margin-right: 0 !important;
+  }
+  .belowNavBar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .smallCard {
+    width: 30% !important;
+    height: auto !important;
+    margin: 10px !important;
+  }
+  .heroSection {
+    height: auto !important;
+    min-height: 160px;
+    max-width: 100% !important;
+    background-size: cover;
+    background-position: center;
+  }
+  .footerSection {
+    flex-direction: column;
+    height: auto !important;
+    text-align: center;
+  }
+  .footerLeft, .footerRight {
+    width: 100% !important;
+    margin: 0 !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .footerInfo {
+    width: auto !important;
+    height: auto !important;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navBar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+  .searchBox {
+    width: 100% !important;
+    margin: 0.5rem 0;
+  }
+  .input {
+    width: 100% !important;
+  }
+  .cartBox {
+    margin-right: 0 !important;
+  }
+  .item {
+    flex: 1 1 100%;
+    max-width: 100%;
+    height: auto !important;
+  }
+  .itemHeadName {
+    font-size: 20px;
+  }
+  .buyNowText {
+    font-size: 14px;
+  }
+  .smallCard {
+    width: 45% !important;
+    height: auto !important;
+    margin: 10px !important;
+  }
+  .heroSection {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 140px;
+    background-size: cover;
+    background-position: center;
+  }
+  .footerSection {
+    flex-direction: column;
+    width: 100% !important;
+    height: auto !important;
+    text-align: center;
+  }
+  .footerLeft, .footerRight {
+    width: 100% !important;
+    margin: 0 !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .footerExtras {
+    flex-direction: column;
+    height: auto !important;
+    text-align: center;
+    gap: 0.5rem;
+  }
+}
